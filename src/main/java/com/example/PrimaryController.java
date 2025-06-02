@@ -10,14 +10,11 @@ import javafx.scene.text.Text;
 
 public class PrimaryController {
 
-    //@FXML
-    //private void switchToSecondary() throws IOException {
-    //    App.setRoot("secondaryController");
-    //}
-
     @FXML
     Button startButton = new Button();
 
-   //@FXML
-    //TitledPane 
+    @FXML
+    private void startGame() throws IOException {
+        App.setRoot("secondaryController");
+    }
 }

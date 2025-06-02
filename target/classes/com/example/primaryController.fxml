@@ -10,12 +10,12 @@
   <content>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
          <children>
-            <Text layoutX="185.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blackjack" textAlignment="CENTER" wrappingWidth="228.91796875">
+            <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="185.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blackjack" textAlignment="CENTER" wrappingWidth="228.91796875" AnchorPane.bottomAnchor="76.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="185.0" AnchorPane.topAnchor="76.0">
                <font>
                   <Font size="48.0" />
                </font>
             </Text>
-            <Button id="startButton" fx:id="startButton" layoutX="248.0" layoutY="222.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="103.0" text="Start">
+            <Button id="startButton" fx:id="startButton" layoutX="248.0" layoutY="222.0" mnemonicParsing="false" onAction="#startGame" prefHeight="47.0" prefWidth="103.0" text="Start">
                <font>
                   <Font size="28.0" />
                </font>
