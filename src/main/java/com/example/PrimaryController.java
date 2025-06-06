@@ -17,4 +17,5 @@ public class PrimaryController {
     private void startGame() throws IOException {
         App.setRoot("SecondaryController");
     }
+
 }
