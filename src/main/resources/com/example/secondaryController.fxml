@@ -32,8 +32,11 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Label id="playerCardsLabel" fx:id="playerCardsLabel" prefHeight="17.0" prefWidth="212.0" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-      <Spinner fx:id="setBet" editable="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label id="playerCardsLabel" fx:id="playerCardsLabel" prefHeight="17.0" prefWidth="212.0" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets bottom="50.0" />
+         </GridPane.margin></Label>
+      <Spinner id="setBetSpinner" fx:id="setBetSpinner" editable="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
       <Label text="Bet" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
          <font>
             <Font size="24.0" />
@@ -55,11 +58,19 @@
          </GridPane.margin>
       </Button>
       <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.rowIndex="1" />
-      <Label id="winStateLabel" fx:id="winStateLabel" prefHeight="35.0" prefWidth="76.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Label id="winStateLabel" fx:id="winStateLabel" prefHeight="35.0" prefWidth="222.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
       <Label id="dealerCardsLabel" fx:id="dealerCardsLabel" prefHeight="17.0" prefWidth="208.0" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+      <Label id="yourWinningsLabel" fx:id="yourWinningsLabel" text="Total" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label id="playerTotalLabel" fx:id="playerTotalLabel" prefHeight="17.0" prefWidth="212.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label id="dealerTotalLabel" fx:id="dealerTotalLabel" prefHeight="17.0" prefWidth="212.0" wrapText="true" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets top="50.0" />
+         </GridPane.margin>
+      </Label>
+      <Label id="dealerCardsLabel" fx:id="dealerCardsLabel" prefHeight="17.0" prefWidth="212.0" wrapText="true" GridPane.columnIndex="1" />
    </children>
 </GridPane>

@@ -1,7 +1,11 @@
 package com.example;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.AnchorPane;
@@ -15,7 +19,7 @@ public class PrimaryController {
 
     @FXML
     private void startGame() throws IOException {
-        App.setRoot("SecondaryController");
+        App.setRoot("secondaryController");
     }
 
 }
